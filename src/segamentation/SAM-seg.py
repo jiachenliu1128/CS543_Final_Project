@@ -12,7 +12,7 @@ from segment_anything import sam_model_registry, SamAutomaticMaskGenerator
 BASE_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = BASE_DIR.parents[1]
 
-IMAGE_PATH = PROJECT_ROOT / "data" / "test.jpg"
+IMAGE_PATH = PROJECT_ROOT / "data" / "543 photos"/"12_SOFTSOAPLI_TD_FAR.jpg"
 SAM_CHECKPOINT = PROJECT_ROOT / "models" / "sam_vit_b_01ec64.pth"
 
 MODEL_TYPE = "vit_b"
@@ -238,6 +238,36 @@ target_mask = object_masks[target_idx]["segmentation"]
 ref_bbox = object_masks[ref_idx]["bbox"]
 target_bbox = object_masks[target_idx]["bbox"]
 
+# =========================
+# 10. Get Reference Object Four Corner Points
+# =========================
+
+ref_mask_uint8 = ref_mask.astype(np.uint8) * 255
+
+contours, _ = cv2.findContours(
+    ref_mask_uint8,
+    cv2.RETR_EXTERNAL,
+    cv2.CHAIN_APPROX_SIMPLE
+)
+
+largest_contour = max(contours, key=cv2.contourArea)
+epsilon = 0.02 * cv2.arcLength(largest_contour, True)
+
+approx = cv2.approxPolyDP(
+    largest_contour,
+    epsilon,
+    True
+)
+
+box_points = approx.reshape(4, 2).astype(np.float32)
+box_points = np.intp(box_points)
+ordered_points = []
+print("\nReference object four corner points:")
+for i, point in enumerate(box_points):
+    x, y = point
+    ordered_points.append((x, y))
+    print(f"Point {i + 1}: (x={x}, y={y})")
+
 print("\n=== RESULT ===")
 print(f"Reference object: Object {ref_idx + 1}")
 print(f"Target object: Object {target_idx + 1}")
@@ -247,3 +277,63 @@ print(f"Reference real length: {length}")
 print(f"Reference real width: {width}")
 
 print("\nCurrent module finished. Next pipeline is blocked.")
+
+def verify(image, points):
+    vis = image.copy()
+
+    # draw red points
+    for i, (x, y) in enumerate(points):
+
+        x = int(x)
+        y = int(y)
+
+        # red circle
+        cv2.circle(
+            vis,
+            (x, y),
+            10,
+            (0, 0, 255),
+            -1
+        )
+
+        # point label
+        cv2.putText(
+            vis,
+            f"P{i+1}",
+            (x + 10, y - 10),
+            cv2.FONT_HERSHEY_SIMPLEX,
+            0.8,
+            (255, 255, 255),
+            2
+        )
+    for i in range(4):
+
+        pt1 = tuple(map(int, points[i]))
+        pt2 = tuple(map(int, points[(i + 1) % 4]))
+
+        cv2.line(
+            vis,
+            pt1,
+            pt2,
+            (0, 255, 0),
+            2
+        )
+
+    h, w = vis.shape[:2]
+
+    max_width = 1000
+    scale = min(1.0, max_width / w)
+
+    vis_resized = cv2.resize(
+        vis,
+        (int(w * scale), int(h * scale))
+    )
+
+    cv2.imshow("Verify Reference Corners", vis_resized)
+
+    print("Press any key to close verification window.")
+
+    cv2.waitKey(0)
+    cv2.destroyAllWindows()
+
+verify(image_bgr, ordered_points)
