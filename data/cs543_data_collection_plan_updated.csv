@@ -1,121 +1,121 @@
-﻿Photo ID,Object Group,Target Dimension,Target Name,Target Shape,Target Length (cm),Target Width (cm),Reference Name,Reference Length (cm),Reference Width (cm),Camera Condition,Tilted (Y/N),In-plane Rotation (Y/N),Reference Placement,Reference Distance (cm),Image Filename,Notes,Target Area (cm^2),Reference Area (cm^2)
-01_DRIVERSLIC_TD_NEAR,Regular-Known,Known,Driver's License,Regular,8.5,5.5,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,01_DRIVERSLIC_TD_NEAR.jpg,,46.75,25
-01_DRIVERSLIC_TD_FAR,Regular-Known,Known,Driver's License,Regular,8.5,5.5,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,01_DRIVERSLIC_TD_FAR.jpg,,46.75,25
-01_DRIVERSLIC_ROT45_NEAR,Regular-Known,Known,Driver's License,Regular,8.5,5.5,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,01_DRIVERSLIC_ROT45_NEAR.jpg,,46.75,25
-01_DRIVERSLIC_ROT45_FAR,Regular-Known,Known,Driver's License,Regular,8.5,5.5,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,01_DRIVERSLIC_ROT45_FAR.jpg,,46.75,25
-01_DRIVERSLIC_TILT45_NEAR,Regular-Known,Known,Driver's License,Regular,8.5,5.5,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,01_DRIVERSLIC_TILT45_NEAR.jpg,,46.75,25
-01_DRIVERSLIC_TILT45_FAR,Regular-Known,Known,Driver's License,Regular,8.5,5.5,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,01_DRIVERSLIC_TILT45_FAR.jpg,,46.75,25
-02_A4PAPER_TD_NEAR,Regular-Known,Known,A4 Paper,Regular,29.7,21.0,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,02_A4PAPER_TD_NEAR.jpg,,623.6999999999999,25
-02_A4PAPER_TD_FAR,Regular-Known,Known,A4 Paper,Regular,29.7,21.0,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,02_A4PAPER_TD_FAR.jpg,,623.6999999999999,25
-02_A4PAPER_ROT45_NEAR,Regular-Known,Known,A4 Paper,Regular,29.7,21.0,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,02_A4PAPER_ROT45_NEAR.jpg,,623.6999999999999,25
-02_A4PAPER_ROT45_FAR,Regular-Known,Known,A4 Paper,Regular,29.7,21.0,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,02_A4PAPER_ROT45_FAR.jpg,,623.6999999999999,25
-02_A4PAPER_TILT45_NEAR,Regular-Known,Known,A4 Paper,Regular,29.7,21.0,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,02_A4PAPER_TILT45_NEAR.jpg,,623.6999999999999,25
-02_A4PAPER_TILT45_FAR,Regular-Known,Known,A4 Paper,Regular,29.7,21.0,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,02_A4PAPER_TILT45_FAR.jpg,,623.6999999999999,25
-03_IPHONE14PR_TD_NEAR,Regular-Known,Known,iPhone 14 Pro,Regular,14.5,7.0,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,03_IPHONE14PR_TD_NEAR.jpg,,101.5,25
-03_IPHONE14PR_TD_FAR,Regular-Known,Known,iPhone 14 Pro,Regular,14.5,7.0,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,03_IPHONE14PR_TD_FAR.jpg,,101.5,25
-03_IPHONE14PR_ROT45_NEAR,Regular-Known,Known,iPhone 14 Pro,Regular,14.5,7.0,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,03_IPHONE14PR_ROT45_NEAR.jpg,,101.5,25
-03_IPHONE14PR_ROT45_FAR,Regular-Known,Known,iPhone 14 Pro,Regular,14.5,7.0,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,03_IPHONE14PR_ROT45_FAR.jpg,,101.5,25
-03_IPHONE14PR_TILT45_NEAR,Regular-Known,Known,iPhone 14 Pro,Regular,14.5,7.0,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,03_IPHONE14PR_TILT45_NEAR.jpg,,101.5,25
-03_IPHONE14PR_TILT45_FAR,Regular-Known,Known,iPhone 14 Pro,Regular,14.5,7.0,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,03_IPHONE14PR_TILT45_FAR.jpg,,101.5,25
-04_10BILL_TD_NEAR,Regular-Known,Known,$10 Bill,Regular,15.6,6.6,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,04_20BILL_TD_NEAR.jpg,,102.96,25
-04_10BILL_TD_FAR,Regular-Known,Known,$10 Bill,Regular,15.6,6.6,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,04_20BILL_TD_FAR.jpg,,102.96,25
-04_10BILL_ROT45_NEAR,Regular-Known,Known,$10 Bill,Regular,15.6,6.6,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,04_20BILL_ROT45_NEAR.jpg,,102.96,25
-04_10BILL_ROT45_FAR,Regular-Known,Known,$10 Bill,Regular,15.6,6.6,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,04_20BILL_ROT45_FAR.jpg,,102.96,25
-04_10BILL_TILT45_NEAR,Regular-Known,Known,$10 Bill,Regular,15.6,6.6,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,04_20BILL_TILT45_NEAR.jpg,,102.96,25
-04_10BILL_TILT45_FAR,Regular-Known,Known,$10 Bill,Regular,15.6,6.6,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,04_20BILL_TILT45_FAR.jpg,,102.96,25
-05_6INCHCAKEM_TD_NEAR,Regular-Known,Known,6-inch Cake Mold,Regular,16.0,16.0,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,05_6INCHCAKEM_TD_NEAR.jpg,,256.0,25
-05_6INCHCAKEM_TD_FAR,Regular-Known,Known,6-inch Cake Mold,Regular,16.0,16.0,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,05_6INCHCAKEM_TD_FAR.jpg,,256.0,25
-05_6INCHCAKEM_ROT45_NEAR,Regular-Known,Known,6-inch Cake Mold,Regular,16.0,16.0,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,05_6INCHCAKEM_ROT45_NEAR.jpg,,256.0,25
-05_6INCHCAKEM_ROT45_FAR,Regular-Known,Known,6-inch Cake Mold,Regular,16.0,16.0,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,05_6INCHCAKEM_ROT45_FAR.jpg,,256.0,25
-05_6INCHCAKEM_TILT45_NEAR,Regular-Known,Known,6-inch Cake Mold,Regular,16.0,16.0,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,05_6INCHCAKEM_TILT45_NEAR.jpg,,256.0,25
-05_6INCHCAKEM_TILT45_FAR,Regular-Known,Known,6-inch Cake Mold,Regular,16.0,16.0,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,05_6INCHCAKEM_TILT45_FAR.jpg,,256.0,25
-06_SHIPPINGBO_TD_NEAR,Regular-Unknown,Unknown,Shipping Box,Regular,37.0,26.0,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,06_SHIPPINGBO_TD_NEAR.jpg,,962.0,25
-06_SHIPPINGBO_TD_FAR,Regular-Unknown,Unknown,Shipping Box,Regular,37.0,26.0,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,06_SHIPPINGBO_TD_FAR.jpg,,962.0,25
-06_SHIPPINGBO_ROT45_NEAR,Regular-Unknown,Unknown,Shipping Box,Regular,37.0,26.0,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,06_SHIPPINGBO_ROT45_NEAR.jpg,,962.0,25
-06_SHIPPINGBO_ROT45_FAR,Regular-Unknown,Unknown,Shipping Box,Regular,37.0,26.0,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,06_SHIPPINGBO_ROT45_FAR.jpg,,962.0,25
-06_SHIPPINGBO_TILT45_NEAR,Regular-Unknown,Unknown,Shipping Box,Regular,37.0,26.0,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,06_SHIPPINGBO_TILT45_NEAR.jpg,,962.0,25
-06_SHIPPINGBO_TILT45_FAR,Regular-Unknown,Unknown,Shipping Box,Regular,37.0,26.0,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,06_SHIPPINGBO_TILT45_FAR.jpg,,962.0,25
-07_BOOK_TD_NEAR,Regular-Unknown,Unknown,Book,Regular,28.6,21.0,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,07_BOOK_TD_NEAR.jpg,,600.6,25
-07_BOOK_TD_FAR,Regular-Unknown,Unknown,Book,Regular,28.6,21.0,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,07_BOOK_TD_FAR.jpg,,600.6,25
-07_BOOK_ROT45_NEAR,Regular-Unknown,Unknown,Book,Regular,28.6,21.0,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,07_BOOK_ROT45_NEAR.jpg,,600.6,25
-07_BOOK_ROT45_FAR,Regular-Unknown,Unknown,Book,Regular,28.6,21.0,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,07_BOOK_ROT45_FAR.jpg,,600.6,25
-07_BOOK_TILT45_NEAR,Regular-Unknown,Unknown,Book,Regular,28.6,21.0,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,07_BOOK_TILT45_NEAR.jpg,,600.6,25
-07_BOOK_TILT45_FAR,Regular-Unknown,Unknown,Book,Regular,28.6,21.0,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,07_BOOK_TILT45_FAR.jpg,,600.6,25
-08_BLUETOOTHA_TD_NEAR,Regular-Unknown,Unknown,Bluetooth audio,Regular,15.5,7.0,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,08_BLUETOOTHA_TD_NEAR.jpg,,108.5,25
-08_BLUETOOTHA_TD_FAR,Regular-Unknown,Unknown,Bluetooth audio,Regular,15.5,7.0,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,08_BLUETOOTHA_TD_FAR.jpg,,108.5,25
-08_BLUETOOTHA_ROT45_NEAR,Regular-Unknown,Unknown,Bluetooth audio,Regular,15.5,7.0,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,08_BLUETOOTHA_ROT45_NEAR.jpg,,108.5,25
-08_BLUETOOTHA_ROT45_FAR,Regular-Unknown,Unknown,Bluetooth audio,Regular,15.5,7.0,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,08_BLUETOOTHA_ROT45_FAR.jpg,,108.5,25
-08_BLUETOOTHA_TILT45_NEAR,Regular-Unknown,Unknown,Bluetooth audio,Regular,15.5,7.0,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,08_BLUETOOTHA_TILT45_NEAR.jpg,,108.5,25
-08_BLUETOOTHA_TILT45_FAR,Regular-Unknown,Unknown,Bluetooth audio,Regular,15.5,7.0,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,08_BLUETOOTHA_TILT45_FAR.jpg,,108.5,25
-09_TOOTHPASTE_TD_NEAR,Regular-Unknown,Unknown,Toothpaste Box,Regular,22.0,5.0,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,09_TOOTHPASTE_TD_NEAR.jpg,,110.0,25
-09_TOOTHPASTE_TD_FAR,Regular-Unknown,Unknown,Toothpaste Box,Regular,22.0,5.0,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,09_TOOTHPASTE_TD_FAR.jpg,,110.0,25
-09_TOOTHPASTE_ROT45_NEAR,Regular-Unknown,Unknown,Toothpaste Box,Regular,22.0,5.0,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,09_TOOTHPASTE_ROT45_NEAR.jpg,,110.0,25
-09_TOOTHPASTE_ROT45_FAR,Regular-Unknown,Unknown,Toothpaste Box,Regular,22.0,5.0,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,09_TOOTHPASTE_ROT45_FAR.jpg,,110.0,25
-09_TOOTHPASTE_TILT45_NEAR,Regular-Unknown,Unknown,Toothpaste Box,Regular,22.0,5.0,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,09_TOOTHPASTE_TILT45_NEAR.jpg,,110.0,25
-09_TOOTHPASTE_TILT45_FAR,Regular-Unknown,Unknown,Toothpaste Box,Regular,22.0,5.0,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,09_TOOTHPASTE_TILT45_FAR.jpg,,110.0,25
-10_IPAD_TD_NEAR,Regular-Unknown,Unknown,iPad,Regular,24.7,19.0,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,10_IPAD_TD_NEAR.jpg,,469.3,25
-10_IPAD_TD_FAR,Regular-Unknown,Unknown,iPad,Regular,24.7,19.0,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,10_IPAD_TD_FAR.jpg,,469.3,25
-10_IPAD_ROT45_NEAR,Regular-Unknown,Unknown,iPad,Regular,24.7,19.0,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,10_IPAD_ROT45_NEAR.jpg,,469.3,25
-10_IPAD_ROT45_FAR,Regular-Unknown,Unknown,iPad,Regular,24.7,19.0,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,10_IPAD_ROT45_FAR.jpg,,469.3,25
-10_IPAD_TILT45_NEAR,Regular-Unknown,Unknown,iPad,Regular,24.7,19.0,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,10_IPAD_TILT45_NEAR.jpg,,469.3,25
-10_IPAD_TILT45_FAR,Regular-Unknown,Unknown,iPad,Regular,24.7,19.0,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,10_IPAD_TILT45_FAR.jpg,,469.3,25
-11_AIRPODSCAS_TD_NEAR,Irregular-Known,Known,AirPods case,Irregular,6.5,5.0,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,11_AIRPODSCAS_TD_NEAR.jpg,,32.5,25
-11_AIRPODSCAS_TD_FAR,Irregular-Known,Known,AirPods case,Irregular,6.5,5.0,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,11_AIRPODSCAS_TD_FAR.jpg,,32.5,25
-11_AIRPODSCAS_ROT45_NEAR,Irregular-Known,Known,AirPods case,Irregular,6.5,5.0,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,11_AIRPODSCAS_ROT45_NEAR.jpg,,32.5,25
-11_AIRPODSCAS_ROT45_FAR,Irregular-Known,Known,AirPods case,Irregular,6.5,5.0,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,11_AIRPODSCAS_ROT45_FAR.jpg,,32.5,25
-11_AIRPODSCAS_TILT45_NEAR,Irregular-Known,Known,AirPods case,Irregular,6.5,5.0,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,11_AIRPODSCAS_TILT45_NEAR.jpg,,32.5,25
-11_AIRPODSCAS_TILT45_FAR,Irregular-Known,Known,AirPods case,Irregular,6.5,5.0,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,11_AIRPODSCAS_TILT45_FAR.jpg,,32.5,25
-12_SOFTSOAPLI_TD_NEAR,Irregular-Known,Known,Softsoap Liquid Hand Soap,Irregular,17.0,9.0,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,12_SOFTSOAPLI_TD_NEAR.jpg,,153.0,25
-12_SOFTSOAPLI_TD_FAR,Irregular-Known,Known,Softsoap Liquid Hand Soap,Irregular,17.0,9.0,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,12_SOFTSOAPLI_TD_FAR.jpg,,153.0,25
-12_SOFTSOAPLI_ROT45_NEAR,Irregular-Known,Known,Softsoap Liquid Hand Soap,Irregular,17.0,9.0,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,12_SOFTSOAPLI_ROT45_NEAR.jpg,,153.0,25
-12_SOFTSOAPLI_ROT45_FAR,Irregular-Known,Known,Softsoap Liquid Hand Soap,Irregular,17.0,9.0,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,12_SOFTSOAPLI_ROT45_FAR.jpg,,153.0,25
-12_SOFTSOAPLI_TILT45_NEAR,Irregular-Known,Known,Softsoap Liquid Hand Soap,Irregular,17.0,9.0,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,12_SOFTSOAPLI_TILT45_NEAR.jpg,,153.0,25
-12_SOFTSOAPLI_TILT45_FAR,Irregular-Known,Known,Softsoap Liquid Hand Soap,Irregular,17.0,9.0,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,12_SOFTSOAPLI_TILT45_FAR.jpg,,153.0,25
-13_AUDICARKEY_TD_NEAR,Irregular-Known,Known,Audi Car Key,Irregular,7.5,3.1,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,13_AUDICARKEY_TD_NEAR.jpg,,23.25,25
-13_AUDICARKEY_TD_FAR,Irregular-Known,Known,Audi Car Key,Irregular,7.5,3.1,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,13_AUDICARKEY_TD_FAR.jpg,,23.25,25
-13_AUDICARKEY_ROT45_NEAR,Irregular-Known,Known,Audi Car Key,Irregular,7.5,3.1,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,13_AUDICARKEY_ROT45_NEAR.jpg,,23.25,25
-13_AUDICARKEY_ROT45_FAR,Irregular-Known,Known,Audi Car Key,Irregular,7.5,3.1,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,13_AUDICARKEY_ROT45_FAR.jpg,,23.25,25
-13_AUDICARKEY_TILT45_NEAR,Irregular-Known,Known,Audi Car Key,Irregular,7.5,3.1,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,13_AUDICARKEY_TILT45_NEAR.jpg,,23.25,25
-13_AUDICARKEY_TILT45_FAR,Irregular-Known,Known,Audi Car Key,Irregular,7.5,3.1,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,13_AUDICARKEY_TILT45_FAR.jpg,,23.25,25
-14_ALIENWAREM_TD_NEAR,Irregular-Known,Known,Alienware Mouse AW610M,Irregular,13.0,8.0,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,14_ALIENWAREM_TD_NEAR.jpg,,104.0,25
-14_ALIENWAREM_TD_FAR,Irregular-Known,Known,Alienware Mouse AW610M,Irregular,13.0,8.0,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,14_ALIENWAREM_TD_FAR.jpg,,104.0,25
-14_ALIENWAREM_ROT45_NEAR,Irregular-Known,Known,Alienware Mouse AW610M,Irregular,13.0,8.0,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,14_ALIENWAREM_ROT45_NEAR.jpg,,104.0,25
-14_ALIENWAREM_ROT45_FAR,Irregular-Known,Known,Alienware Mouse AW610M,Irregular,13.0,8.0,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,14_ALIENWAREM_ROT45_FAR.jpg,,104.0,25
-14_ALIENWAREM_TILT45_NEAR,Irregular-Known,Known,Alienware Mouse AW610M,Irregular,13.0,8.0,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,14_ALIENWAREM_TILT45_NEAR.jpg,,104.0,25
-14_ALIENWAREM_TILT45_FAR,Irregular-Known,Known,Alienware Mouse AW610M,Irregular,13.0,8.0,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,14_ALIENWAREM_TILT45_FAR.jpg,,104.0,25
-15_ICEMOUNTAI_TD_NEAR,Irregular-Known,Known,Ice Mountain bottle,Irregular,20.1,7.0,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,15_ICEMOUNTAI_TD_NEAR.jpg,,140.70000000000002,25
-15_ICEMOUNTAI_TD_FAR,Irregular-Known,Known,Ice Mountain bottle,Irregular,20.1,7.0,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,15_ICEMOUNTAI_TD_FAR.jpg,,140.70000000000002,25
-15_ICEMOUNTAI_ROT45_NEAR,Irregular-Known,Known,Ice Mountain bottle,Irregular,20.1,7.0,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,15_ICEMOUNTAI_ROT45_NEAR.jpg,,140.70000000000002,25
-15_ICEMOUNTAI_ROT45_FAR,Irregular-Known,Known,Ice Mountain bottle,Irregular,20.1,7.0,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,15_ICEMOUNTAI_ROT45_FAR.jpg,,140.70000000000002,25
-15_ICEMOUNTAI_TILT45_NEAR,Irregular-Known,Known,Ice Mountain bottle,Irregular,20.1,7.0,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,15_ICEMOUNTAI_TILT45_NEAR.jpg,,140.70000000000002,25
-15_ICEMOUNTAI_TILT45_FAR,Irregular-Known,Known,Ice Mountain bottle,Irregular,20.1,7.0,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,15_ICEMOUNTAI_TILT45_FAR.jpg,,140.70000000000002,25
-16_POT_TD_NEAR,Irregular-Unknown,Unknown,Pot,Irregular,39.5,22.5,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,16_POT_TD_NEAR.jpg,,888.75,25
-16_POT_TD_FAR,Irregular-Unknown,Unknown,Pot,Irregular,39.5,22.5,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,16_POT_TD_FAR.jpg,,888.75,25
-16_POT_ROT45_NEAR,Irregular-Unknown,Unknown,Pot,Irregular,39.5,22.5,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,16_POT_ROT45_NEAR.jpg,,888.75,25
-16_POT_ROT45_FAR,Irregular-Unknown,Unknown,Pot,Irregular,39.5,22.5,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,16_POT_ROT45_FAR.jpg,,888.75,25
-16_POT_TILT45_NEAR,Irregular-Unknown,Unknown,Pot,Irregular,39.5,22.5,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,16_POT_TILT45_NEAR.jpg,,888.75,25
-16_POT_TILT45_FAR,Irregular-Unknown,Unknown,Pot,Irregular,39.5,22.5,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,16_POT_TILT45_FAR.jpg,,888.75,25
-17_MUG_TD_NEAR,Irregular-Unknown,Unknown,Mug,Irregular,11.5,8.0,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,17_MUG_TD_NEAR.jpg,,92.0,25
-17_MUG_TD_FAR,Irregular-Unknown,Unknown,Mug,Irregular,11.5,8.0,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,17_MUG_TD_FAR.jpg,,92.0,25
-17_MUG_ROT45_NEAR,Irregular-Unknown,Unknown,Mug,Irregular,11.5,8.0,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,17_MUG_ROT45_NEAR.jpg,,92.0,25
-17_MUG_ROT45_FAR,Irregular-Unknown,Unknown,Mug,Irregular,11.5,8.0,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,17_MUG_ROT45_FAR.jpg,,92.0,25
-17_MUG_TILT45_NEAR,Irregular-Unknown,Unknown,Mug,Irregular,11.5,8.0,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,17_MUG_TILT45_NEAR.jpg,,92.0,25
-17_MUG_TILT45_FAR,Irregular-Unknown,Unknown,Mug,Irregular,11.5,8.0,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,17_MUG_TILT45_FAR.jpg,,92.0,25
-18_PEANUTMASS_TD_NEAR,Irregular-Unknown,Unknown,Peanut Massage Ball,Irregular,23.5,12.0,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,18_PEANUTMASS_TD_NEAR.jpg,,282.0,25
-18_PEANUTMASS_TD_FAR,Irregular-Unknown,Unknown,Peanut Massage Ball,Irregular,23.5,12.0,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,18_PEANUTMASS_TD_FAR.jpg,,282.0,25
-18_PEANUTMASS_ROT45_NEAR,Irregular-Unknown,Unknown,Peanut Massage Ball,Irregular,23.5,12.0,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,18_PEANUTMASS_ROT45_NEAR.jpg,,282.0,25
-18_PEANUTMASS_ROT45_FAR,Irregular-Unknown,Unknown,Peanut Massage Ball,Irregular,23.5,12.0,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,18_PEANUTMASS_ROT45_FAR.jpg,,282.0,25
-18_PEANUTMASS_TILT45_NEAR,Irregular-Unknown,Unknown,Peanut Massage Ball,Irregular,23.5,12.0,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,18_PEANUTMASS_TILT45_NEAR.jpg,,282.0,25
-18_PEANUTMASS_TILT45_FAR,Irregular-Unknown,Unknown,Peanut Massage Ball,Irregular,23.5,12.0,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,18_PEANUTMASS_TILT45_FAR.jpg,,282.0,25
-19_SCREWDRIVE_TD_NEAR,Irregular-Unknown,Unknown,Screw Driver,Irregular,7.4,3.0,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,19_SCREWDRIVE_TD_NEAR.jpg,,22.200000000000003,25
-19_SCREWDRIVE_TD_FAR,Irregular-Unknown,Unknown,Screw Driver,Irregular,7.4,3.0,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,19_SCREWDRIVE_TD_FAR.jpg,,22.200000000000003,25
-19_SCREWDRIVE_ROT45_NEAR,Irregular-Unknown,Unknown,Screw Driver,Irregular,7.4,3.0,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,19_SCREWDRIVE_ROT45_NEAR.jpg,,22.200000000000003,25
-19_SCREWDRIVE_ROT45_FAR,Irregular-Unknown,Unknown,Screw Driver,Irregular,7.4,3.0,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,19_SCREWDRIVE_ROT45_FAR.jpg,,22.200000000000003,25
-19_SCREWDRIVE_TILT45_NEAR,Irregular-Unknown,Unknown,Screw Driver,Irregular,7.4,3.0,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,19_SCREWDRIVE_TILT45_NEAR.jpg,,22.200000000000003,25
-19_SCREWDRIVE_TILT45_FAR,Irregular-Unknown,Unknown,Screw Driver,Irregular,7.4,3.0,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,19_SCREWDRIVE_TILT45_FAR.jpg,,22.200000000000003,25
-20_BOWL_TD_NEAR,Irregular-Unknown,Unknown,Bowl,Irregular,20.0,20.0,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,20_BOWL_TD_NEAR.jpg,,400.0,25
-20_BOWL_TD_FAR,Irregular-Unknown,Unknown,Bowl,Irregular,20.0,20.0,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,20_BOWL_TD_FAR.jpg,,400.0,25
-20_BOWL_ROT45_NEAR,Irregular-Unknown,Unknown,Bowl,Irregular,20.0,20.0,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,20_BOWL_ROT45_NEAR.jpg,,400.0,25
-20_BOWL_ROT45_FAR,Irregular-Unknown,Unknown,Bowl,Irregular,20.0,20.0,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,20_BOWL_ROT45_FAR.jpg,,400.0,25
-20_BOWL_TILT45_NEAR,Irregular-Unknown,Unknown,Bowl,Irregular,20.0,20.0,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,20_BOWL_TILT45_NEAR.jpg,,400.0,25
-20_BOWL_TILT45_FAR,Irregular-Unknown,Unknown,Bowl,Irregular,20.0,20.0,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,20_BOWL_TILT45_FAR.jpg,,400.0,25
+﻿Photo ID,Object Group,Target Dimension,Target Name,Target Shape,Target Length (cm),Target Width (cm),Reference Name,Reference Length (cm),Reference Width (cm),Camera Condition,Tilted (Y/N),In-plane Rotation (Y/N),Reference Placement,Reference Distance (cm),Image Filename,Notes
+01_DRIVERSLIC_TD_NEAR,Regular-Known,Known,Driver's License,Regular,8.5,5.5,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,01_DRIVERSLIC_TD_NEAR.jpg,
+01_DRIVERSLIC_TD_FAR,Regular-Known,Known,Driver's License,Regular,8.5,5.5,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,01_DRIVERSLIC_TD_FAR.jpg,
+01_DRIVERSLIC_ROT45_NEAR,Regular-Known,Known,Driver's License,Regular,8.5,5.5,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,01_DRIVERSLIC_ROT45_NEAR.jpg,
+01_DRIVERSLIC_ROT45_FAR,Regular-Known,Known,Driver's License,Regular,8.5,5.5,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,01_DRIVERSLIC_ROT45_FAR.jpg,
+01_DRIVERSLIC_TILT45_NEAR,Regular-Known,Known,Driver's License,Regular,8.5,5.5,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,01_DRIVERSLIC_TILT45_NEAR.jpg,
+01_DRIVERSLIC_TILT45_FAR,Regular-Known,Known,Driver's License,Regular,8.5,5.5,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,01_DRIVERSLIC_TILT45_FAR.jpg,
+02_A4PAPER_TD_NEAR,Regular-Known,Known,A4 Paper,Regular,29.7,21,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,02_A4PAPER_TD_NEAR.jpg,
+02_A4PAPER_TD_FAR,Regular-Known,Known,A4 Paper,Regular,29.7,21,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,02_A4PAPER_TD_FAR.jpg,
+02_A4PAPER_ROT45_NEAR,Regular-Known,Known,A4 Paper,Regular,29.7,21,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,02_A4PAPER_ROT45_NEAR.jpg,
+02_A4PAPER_ROT45_FAR,Regular-Known,Known,A4 Paper,Regular,29.7,21,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,02_A4PAPER_ROT45_FAR.jpg,
+02_A4PAPER_TILT45_NEAR,Regular-Known,Known,A4 Paper,Regular,29.7,21,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,02_A4PAPER_TILT45_NEAR.jpg,
+02_A4PAPER_TILT45_FAR,Regular-Known,Known,A4 Paper,Regular,29.7,21,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,02_A4PAPER_TILT45_FAR.jpg,
+03_IPHONE14PR_TD_NEAR,Regular-Known,Known,iPhone 14 Pro,Regular,14.5,7,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,03_IPHONE14PR_TD_NEAR.jpg,
+03_IPHONE14PR_TD_FAR,Regular-Known,Known,iPhone 14 Pro,Regular,14.5,7,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,03_IPHONE14PR_TD_FAR.jpg,
+03_IPHONE14PR_ROT45_NEAR,Regular-Known,Known,iPhone 14 Pro,Regular,14.5,7,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,03_IPHONE14PR_ROT45_NEAR.jpg,
+03_IPHONE14PR_ROT45_FAR,Regular-Known,Known,iPhone 14 Pro,Regular,14.5,7,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,03_IPHONE14PR_ROT45_FAR.jpg,
+03_IPHONE14PR_TILT45_NEAR,Regular-Known,Known,iPhone 14 Pro,Regular,14.5,7,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,03_IPHONE14PR_TILT45_NEAR.jpg,
+03_IPHONE14PR_TILT45_FAR,Regular-Known,Known,iPhone 14 Pro,Regular,14.5,7,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,03_IPHONE14PR_TILT45_FAR.jpg,
+04_10BILL_TD_NEAR,Regular-Known,Known,$10 Bill,Regular,15.6,6.6,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,04_20BILL_TD_NEAR.jpg,
+04_10BILL_TD_FAR,Regular-Known,Known,$10 Bill,Regular,15.6,6.6,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,04_20BILL_TD_FAR.jpg,
+04_10BILL_ROT45_NEAR,Regular-Known,Known,$10 Bill,Regular,15.6,6.6,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,04_20BILL_ROT45_NEAR.jpg,
+04_10BILL_ROT45_FAR,Regular-Known,Known,$10 Bill,Regular,15.6,6.6,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,04_20BILL_ROT45_FAR.jpg,
+04_10BILL_TILT45_NEAR,Regular-Known,Known,$10 Bill,Regular,15.6,6.6,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,04_20BILL_TILT45_NEAR.jpg,
+04_10BILL_TILT45_FAR,Regular-Known,Known,$10 Bill,Regular,15.6,6.6,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,04_20BILL_TILT45_FAR.jpg,
+05_6INCHCAKEM_TD_NEAR,Regular-Known,Known,6-inch Cake Mold,Regular,16,16,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,05_6INCHCAKEM_TD_NEAR.jpg,
+05_6INCHCAKEM_TD_FAR,Regular-Known,Known,6-inch Cake Mold,Regular,16,16,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,05_6INCHCAKEM_TD_FAR.jpg,
+05_6INCHCAKEM_ROT45_NEAR,Regular-Known,Known,6-inch Cake Mold,Regular,16,16,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,05_6INCHCAKEM_ROT45_NEAR.jpg,
+05_6INCHCAKEM_ROT45_FAR,Regular-Known,Known,6-inch Cake Mold,Regular,16,16,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,05_6INCHCAKEM_ROT45_FAR.jpg,
+05_6INCHCAKEM_TILT45_NEAR,Regular-Known,Known,6-inch Cake Mold,Regular,16,16,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,05_6INCHCAKEM_TILT45_NEAR.jpg,
+05_6INCHCAKEM_TILT45_FAR,Regular-Known,Known,6-inch Cake Mold,Regular,16,16,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,05_6INCHCAKEM_TILT45_FAR.jpg,
+06_SHIPPINGBO_TD_NEAR,Regular-Unknown,Unknown,Shipping Box,Regular,37,26,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,06_SHIPPINGBO_TD_NEAR.jpg,
+06_SHIPPINGBO_TD_FAR,Regular-Unknown,Unknown,Shipping Box,Regular,37,26,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,06_SHIPPINGBO_TD_FAR.jpg,
+06_SHIPPINGBO_ROT45_NEAR,Regular-Unknown,Unknown,Shipping Box,Regular,37,26,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,06_SHIPPINGBO_ROT45_NEAR.jpg,
+06_SHIPPINGBO_ROT45_FAR,Regular-Unknown,Unknown,Shipping Box,Regular,37,26,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,06_SHIPPINGBO_ROT45_FAR.jpg,
+06_SHIPPINGBO_TILT45_NEAR,Regular-Unknown,Unknown,Shipping Box,Regular,37,26,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,06_SHIPPINGBO_TILT45_NEAR.jpg,
+06_SHIPPINGBO_TILT45_FAR,Regular-Unknown,Unknown,Shipping Box,Regular,37,26,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,06_SHIPPINGBO_TILT45_FAR.jpg,
+07_BOOK_TD_NEAR,Regular-Unknown,Unknown,Book,Regular,28.6,21,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,07_BOOK_TD_NEAR.jpg,
+07_BOOK_TD_FAR,Regular-Unknown,Unknown,Book,Regular,28.6,21,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,07_BOOK_TD_FAR.jpg,
+07_BOOK_ROT45_NEAR,Regular-Unknown,Unknown,Book,Regular,28.6,21,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,07_BOOK_ROT45_NEAR.jpg,
+07_BOOK_ROT45_FAR,Regular-Unknown,Unknown,Book,Regular,28.6,21,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,07_BOOK_ROT45_FAR.jpg,
+07_BOOK_TILT45_NEAR,Regular-Unknown,Unknown,Book,Regular,28.6,21,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,07_BOOK_TILT45_NEAR.jpg,
+07_BOOK_TILT45_FAR,Regular-Unknown,Unknown,Book,Regular,28.6,21,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,07_BOOK_TILT45_FAR.jpg,
+08_BLUETOOTHA_TD_NEAR,Regular-Unknown,Unknown,Bluetooth audio,Regular,15.5,7,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,08_BLUETOOTHA_TD_NEAR.jpg,
+08_BLUETOOTHA_TD_FAR,Regular-Unknown,Unknown,Bluetooth audio,Regular,15.5,7,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,08_BLUETOOTHA_TD_FAR.jpg,
+08_BLUETOOTHA_ROT45_NEAR,Regular-Unknown,Unknown,Bluetooth audio,Regular,15.5,7,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,08_BLUETOOTHA_ROT45_NEAR.jpg,
+08_BLUETOOTHA_ROT45_FAR,Regular-Unknown,Unknown,Bluetooth audio,Regular,15.5,7,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,08_BLUETOOTHA_ROT45_FAR.jpg,
+08_BLUETOOTHA_TILT45_NEAR,Regular-Unknown,Unknown,Bluetooth audio,Regular,15.5,7,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,08_BLUETOOTHA_TILT45_NEAR.jpg,
+08_BLUETOOTHA_TILT45_FAR,Regular-Unknown,Unknown,Bluetooth audio,Regular,15.5,7,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,08_BLUETOOTHA_TILT45_FAR.jpg,
+09_TOOTHPASTE_TD_NEAR,Regular-Unknown,Unknown,Toothpaste Box,Regular,22,5,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,09_TOOTHPASTE_TD_NEAR.jpg,
+09_TOOTHPASTE_TD_FAR,Regular-Unknown,Unknown,Toothpaste Box,Regular,22,5,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,09_TOOTHPASTE_TD_FAR.jpg,
+09_TOOTHPASTE_ROT45_NEAR,Regular-Unknown,Unknown,Toothpaste Box,Regular,22,5,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,09_TOOTHPASTE_ROT45_NEAR.jpg,
+09_TOOTHPASTE_ROT45_FAR,Regular-Unknown,Unknown,Toothpaste Box,Regular,22,5,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,09_TOOTHPASTE_ROT45_FAR.jpg,
+09_TOOTHPASTE_TILT45_NEAR,Regular-Unknown,Unknown,Toothpaste Box,Regular,22,5,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,09_TOOTHPASTE_TILT45_NEAR.jpg,
+09_TOOTHPASTE_TILT45_FAR,Regular-Unknown,Unknown,Toothpaste Box,Regular,22,5,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,09_TOOTHPASTE_TILT45_FAR.jpg,
+10_IPAD_TD_NEAR,Regular-Unknown,Unknown,iPad,Regular,24.7,19,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,10_IPAD_TD_NEAR.jpg,
+10_IPAD_TD_FAR,Regular-Unknown,Unknown,iPad,Regular,24.7,19,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,10_IPAD_TD_FAR.jpg,
+10_IPAD_ROT45_NEAR,Regular-Unknown,Unknown,iPad,Regular,24.7,19,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,10_IPAD_ROT45_NEAR.jpg,
+10_IPAD_ROT45_FAR,Regular-Unknown,Unknown,iPad,Regular,24.7,19,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,10_IPAD_ROT45_FAR.jpg,
+10_IPAD_TILT45_NEAR,Regular-Unknown,Unknown,iPad,Regular,24.7,19,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,10_IPAD_TILT45_NEAR.jpg,
+10_IPAD_TILT45_FAR,Regular-Unknown,Unknown,iPad,Regular,24.7,19,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,10_IPAD_TILT45_FAR.jpg,
+11_AIRPODSCAS_TD_NEAR,Irregular-Known,Known,AirPods case,Irregular,6.5,5,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,11_AIRPODSCAS_TD_NEAR.jpg,
+11_AIRPODSCAS_TD_FAR,Irregular-Known,Known,AirPods case,Irregular,6.5,5,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,11_AIRPODSCAS_TD_FAR.jpg,
+11_AIRPODSCAS_ROT45_NEAR,Irregular-Known,Known,AirPods case,Irregular,6.5,5,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,11_AIRPODSCAS_ROT45_NEAR.jpg,
+11_AIRPODSCAS_ROT45_FAR,Irregular-Known,Known,AirPods case,Irregular,6.5,5,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,11_AIRPODSCAS_ROT45_FAR.jpg,
+11_AIRPODSCAS_TILT45_NEAR,Irregular-Known,Known,AirPods case,Irregular,6.5,5,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,11_AIRPODSCAS_TILT45_NEAR.jpg,
+11_AIRPODSCAS_TILT45_FAR,Irregular-Known,Known,AirPods case,Irregular,6.5,5,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,11_AIRPODSCAS_TILT45_FAR.jpg,
+12_SOFTSOAPLI_TD_NEAR,Irregular-Known,Known,Softsoap Liquid Hand Soap,Irregular,17,9,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,12_SOFTSOAPLI_TD_NEAR.jpg,
+12_SOFTSOAPLI_TD_FAR,Irregular-Known,Known,Softsoap Liquid Hand Soap,Irregular,17,9,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,12_SOFTSOAPLI_TD_FAR.jpg,
+12_SOFTSOAPLI_ROT45_NEAR,Irregular-Known,Known,Softsoap Liquid Hand Soap,Irregular,17,9,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,12_SOFTSOAPLI_ROT45_NEAR.jpg,
+12_SOFTSOAPLI_ROT45_FAR,Irregular-Known,Known,Softsoap Liquid Hand Soap,Irregular,17,9,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,12_SOFTSOAPLI_ROT45_FAR.jpg,
+12_SOFTSOAPLI_TILT45_NEAR,Irregular-Known,Known,Softsoap Liquid Hand Soap,Irregular,17,9,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,12_SOFTSOAPLI_TILT45_NEAR.jpg,
+12_SOFTSOAPLI_TILT45_FAR,Irregular-Known,Known,Softsoap Liquid Hand Soap,Irregular,17,9,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,12_SOFTSOAPLI_TILT45_FAR.jpg,
+13_AUDICARKEY_TD_NEAR,Irregular-Known,Known,Audi Car Key,Irregular,7.5,3.1,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,13_AUDICARKEY_TD_NEAR.jpg,
+13_AUDICARKEY_TD_FAR,Irregular-Known,Known,Audi Car Key,Irregular,7.5,3.1,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,13_AUDICARKEY_TD_FAR.jpg,
+13_AUDICARKEY_ROT45_NEAR,Irregular-Known,Known,Audi Car Key,Irregular,7.5,3.1,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,13_AUDICARKEY_ROT45_NEAR.jpg,
+13_AUDICARKEY_ROT45_FAR,Irregular-Known,Known,Audi Car Key,Irregular,7.5,3.1,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,13_AUDICARKEY_ROT45_FAR.jpg,
+13_AUDICARKEY_TILT45_NEAR,Irregular-Known,Known,Audi Car Key,Irregular,7.5,3.1,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,13_AUDICARKEY_TILT45_NEAR.jpg,
+13_AUDICARKEY_TILT45_FAR,Irregular-Known,Known,Audi Car Key,Irregular,7.5,3.1,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,13_AUDICARKEY_TILT45_FAR.jpg,
+14_ALIENWAREM_TD_NEAR,Irregular-Known,Known,Alienware Mouse AW610M,Irregular,13,8,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,14_ALIENWAREM_TD_NEAR.jpg,
+14_ALIENWAREM_TD_FAR,Irregular-Known,Known,Alienware Mouse AW610M,Irregular,13,8,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,14_ALIENWAREM_TD_FAR.jpg,
+14_ALIENWAREM_ROT45_NEAR,Irregular-Known,Known,Alienware Mouse AW610M,Irregular,13,8,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,14_ALIENWAREM_ROT45_NEAR.jpg,
+14_ALIENWAREM_ROT45_FAR,Irregular-Known,Known,Alienware Mouse AW610M,Irregular,13,8,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,14_ALIENWAREM_ROT45_FAR.jpg,
+14_ALIENWAREM_TILT45_NEAR,Irregular-Known,Known,Alienware Mouse AW610M,Irregular,13,8,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,14_ALIENWAREM_TILT45_NEAR.jpg,
+14_ALIENWAREM_TILT45_FAR,Irregular-Known,Known,Alienware Mouse AW610M,Irregular,13,8,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,14_ALIENWAREM_TILT45_FAR.jpg,
+15_ICEMOUNTAI_TD_NEAR,Irregular-Known,Known,Ice Mountain bottle,Irregular,20.1,7,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,15_ICEMOUNTAI_TD_NEAR.jpg,
+15_ICEMOUNTAI_TD_FAR,Irregular-Known,Known,Ice Mountain bottle,Irregular,20.1,7,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,15_ICEMOUNTAI_TD_FAR.jpg,
+15_ICEMOUNTAI_ROT45_NEAR,Irregular-Known,Known,Ice Mountain bottle,Irregular,20.1,7,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,15_ICEMOUNTAI_ROT45_NEAR.jpg,
+15_ICEMOUNTAI_ROT45_FAR,Irregular-Known,Known,Ice Mountain bottle,Irregular,20.1,7,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,15_ICEMOUNTAI_ROT45_FAR.jpg,
+15_ICEMOUNTAI_TILT45_NEAR,Irregular-Known,Known,Ice Mountain bottle,Irregular,20.1,7,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,15_ICEMOUNTAI_TILT45_NEAR.jpg,
+15_ICEMOUNTAI_TILT45_FAR,Irregular-Known,Known,Ice Mountain bottle,Irregular,20.1,7,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,15_ICEMOUNTAI_TILT45_FAR.jpg,
+16_POT_TD_NEAR,Irregular-Unknown,Unknown,Pot,Irregular,39.5,22.5,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,16_POT_TD_NEAR.jpg,
+16_POT_TD_FAR,Irregular-Unknown,Unknown,Pot,Irregular,39.5,22.5,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,16_POT_TD_FAR.jpg,
+16_POT_ROT45_NEAR,Irregular-Unknown,Unknown,Pot,Irregular,39.5,22.5,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,16_POT_ROT45_NEAR.jpg,
+16_POT_ROT45_FAR,Irregular-Unknown,Unknown,Pot,Irregular,39.5,22.5,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,16_POT_ROT45_FAR.jpg,
+16_POT_TILT45_NEAR,Irregular-Unknown,Unknown,Pot,Irregular,39.5,22.5,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,16_POT_TILT45_NEAR.jpg,
+16_POT_TILT45_FAR,Irregular-Unknown,Unknown,Pot,Irregular,39.5,22.5,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,16_POT_TILT45_FAR.jpg,
+17_MUG_TD_NEAR,Irregular-Unknown,Unknown,Mug,Irregular,11.5,8,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,17_MUG_TD_NEAR.jpg,
+17_MUG_TD_FAR,Irregular-Unknown,Unknown,Mug,Irregular,11.5,8,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,17_MUG_TD_FAR.jpg,
+17_MUG_ROT45_NEAR,Irregular-Unknown,Unknown,Mug,Irregular,11.5,8,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,17_MUG_ROT45_NEAR.jpg,
+17_MUG_ROT45_FAR,Irregular-Unknown,Unknown,Mug,Irregular,11.5,8,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,17_MUG_ROT45_FAR.jpg,
+17_MUG_TILT45_NEAR,Irregular-Unknown,Unknown,Mug,Irregular,11.5,8,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,17_MUG_TILT45_NEAR.jpg,
+17_MUG_TILT45_FAR,Irregular-Unknown,Unknown,Mug,Irregular,11.5,8,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,17_MUG_TILT45_FAR.jpg,
+18_PEANUTMASS_TD_NEAR,Irregular-Unknown,Unknown,Peanut Massage Ball,Irregular,23.5,12,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,18_PEANUTMASS_TD_NEAR.jpg,
+18_PEANUTMASS_TD_FAR,Irregular-Unknown,Unknown,Peanut Massage Ball,Irregular,23.5,12,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,18_PEANUTMASS_TD_FAR.jpg,
+18_PEANUTMASS_ROT45_NEAR,Irregular-Unknown,Unknown,Peanut Massage Ball,Irregular,23.5,12,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,18_PEANUTMASS_ROT45_NEAR.jpg,
+18_PEANUTMASS_ROT45_FAR,Irregular-Unknown,Unknown,Peanut Massage Ball,Irregular,23.5,12,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,18_PEANUTMASS_ROT45_FAR.jpg,
+18_PEANUTMASS_TILT45_NEAR,Irregular-Unknown,Unknown,Peanut Massage Ball,Irregular,23.5,12,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,18_PEANUTMASS_TILT45_NEAR.jpg,
+18_PEANUTMASS_TILT45_FAR,Irregular-Unknown,Unknown,Peanut Massage Ball,Irregular,23.5,12,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,18_PEANUTMASS_TILT45_FAR.jpg,
+19_SCREWDRIVE_TD_NEAR,Irregular-Unknown,Unknown,Screw Driver,Irregular,7.4,3,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,19_SCREWDRIVE_TD_NEAR.jpg,
+19_SCREWDRIVE_TD_FAR,Irregular-Unknown,Unknown,Screw Driver,Irregular,7.4,3,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,19_SCREWDRIVE_TD_FAR.jpg,
+19_SCREWDRIVE_ROT45_NEAR,Irregular-Unknown,Unknown,Screw Driver,Irregular,7.4,3,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,19_SCREWDRIVE_ROT45_NEAR.jpg,
+19_SCREWDRIVE_ROT45_FAR,Irregular-Unknown,Unknown,Screw Driver,Irregular,7.4,3,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,19_SCREWDRIVE_ROT45_FAR.jpg,
+19_SCREWDRIVE_TILT45_NEAR,Irregular-Unknown,Unknown,Screw Driver,Irregular,7.4,3,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,19_SCREWDRIVE_TILT45_NEAR.jpg,
+19_SCREWDRIVE_TILT45_FAR,Irregular-Unknown,Unknown,Screw Driver,Irregular,7.4,3,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,19_SCREWDRIVE_TILT45_FAR.jpg,
+20_BOWL_TD_NEAR,Irregular-Unknown,Unknown,Bowl,Irregular,20,20,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,20_BOWL_TD_NEAR.jpg,
+20_BOWL_TD_FAR,Irregular-Unknown,Unknown,Bowl,Irregular,20,20,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,20_BOWL_TD_FAR.jpg,
+20_BOWL_ROT45_NEAR,Irregular-Unknown,Unknown,Bowl,Irregular,20,20,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,20_BOWL_ROT45_NEAR.jpg,
+20_BOWL_ROT45_FAR,Irregular-Unknown,Unknown,Bowl,Irregular,20,20,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Far,20,20_BOWL_ROT45_FAR.jpg,
+20_BOWL_TILT45_NEAR,Irregular-Unknown,Unknown,Bowl,Irregular,20,20,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Near,10,20_BOWL_TILT45_NEAR.jpg,
+20_BOWL_TILT45_FAR,Irregular-Unknown,Unknown,Bowl,Irregular,20,20,5 cm x 5 cm square marker,5,5,45° tilted camera,Y,N,Far,20,20_BOWL_TILT45_FAR.jpg,
