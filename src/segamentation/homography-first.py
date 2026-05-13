@@ -65,15 +65,11 @@ def flatten_image_strictly_around_targets(image, corners, target_masks):
     return unwarped_image
 
 def get_bbox_corners(bbox):
-    """
-    Converts a standard [x, y, w, h] bounding box into 4 distinct corner coordinates.
-    """
+    """Converts a standard [x, y, w, h] bounding box into 4 distinct corners."""
     x, y, w, h = map(int, bbox)
     return {
-        "TL": (x, y),
-        "TR": (x + w, y),
-        "BR": (x + w, y + h),
-        "BL": (x, y + h)
+        "TL": (x, y), "TR": (x + w, y),
+        "BR": (x + w, y + h), "BL": (x, y + h)
     }
 
 # =========================
@@ -82,8 +78,11 @@ def get_bbox_corners(bbox):
 BASE_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = BASE_DIR.parents[1]
 
-IMAGE_PATH = PROJECT_ROOT / "data" / "543 photos" / "20_BOWL_TILT45_FAR.jpg"
+IMAGE_PATH = PROJECT_ROOT / "data" / "543 photos" / "18_PEANUTMASS_TD_FAR.jpg"
 SAM_CHECKPOINT = PROJECT_ROOT / "models" / "sam_vit_b_01ec64.pth"
+
+# === PHYSICAL DIMENSIONS (SCALE FACTOR DATA) ===
+REAL_SQUARE_CM = 5.0  
 
 MODEL_TYPE = "vit_b"
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
@@ -142,10 +141,17 @@ cv2.destroyAllWindows()
 
 
 # =========================
-# 4. User Input & Hybrid Selection
+# 4. User Input (Pass 1)
 # =========================
-ref_idx = int(input(f"Enter the Object Number for the WHITE SQUARE [1-{len(object_masks)}]: ")) - 1
-target_idx = int(input(f"Enter the Object Number for the TARGET TOOTHPASTE [1-{len(object_masks)}]: ")) - 1
+print("\n" + "="*40)
+print("       PASS 1: OBJECT SELECTION")
+print("="*40)
+
+print("\n--> Step 1: Select your REFERENCE object (The White Square)")
+ref_idx = int(input(f"Enter the Object Number [1-{len(object_masks)}]: ")) - 1
+
+print("\n--> Step 2: Select your TARGET object (The Toothpaste)")
+target_idx = int(input(f"Enter the Object Number [1-{len(object_masks)}]: ")) - 1
 
 ref_mask_uint8 = object_masks[ref_idx]["segmentation"].astype(np.uint8) * 255
 gray = cv2.cvtColor(image_bgr, cv2.COLOR_BGR2GRAY)
@@ -212,37 +218,60 @@ print("\n" + "="*40)
 print("       PASS 2: OBJECT SELECTION")
 print("="*40)
 
-# Ask for the Reference Object
-print("\n--> Step 1: Select your REFERENCE object (The White Square)")
+print("\n--> Step 1: Select your FLAT REFERENCE object (The White Square)")
 flat_ref_idx = int(input(f"Enter the Object Number [1-{len(flat_objects)}]: ")) - 1
 
-# Ask for the Target Object
-print("\n--> Step 2: Select your TARGET object (The Toothpaste)")
+print("\n--> Step 2: Select your FLAT TARGET object (The Toothpaste)")
 flat_target_idx = int(input(f"Enter the Object Number [1-{len(flat_objects)}]: ")) - 1
 
-# Extract the bounding boxes from SAM's dictionary
-ref_bbox = flat_objects[flat_ref_idx]["bbox"]
-target_bbox = flat_objects[flat_target_idx]["bbox"]
+ref_bbox = flat_objects[flat_ref_idx]["bbox"]     # [x, y, w, h]
+target_bbox = flat_objects[flat_target_idx]["bbox"] # [x, y, w, h]
 
-# Convert to 4 corners
 final_square_corners = get_bbox_corners(ref_bbox)
 final_target_corners = get_bbox_corners(target_bbox)
 
 
 # =========================
-# 8. Output Final Results
+# 8. Scale Calculation & Output Final Results
 # =========================
 print("\n==============================================")
 print("             FINAL COORDINATES                ")
 print("==============================================")
 print("Points are relative to the final unwarped, flat image canvas.\n")
 
-print(f"Reference Square (Flat Obj {flat_ref_idx + 1}) Bounding Box:")
+print(f"Reference Square (Flat Obj {flat_ref_idx + 1}):")
 for corner, coords in final_square_corners.items():
     print(f"  {corner}: {coords}")
 
-print(f"\nTarget Toothpaste (Flat Obj {flat_target_idx + 1}) Bounding Box:")
+print(f"\nTarget Toothpaste (Flat Obj {flat_target_idx + 1}):")
 for corner, coords in final_target_corners.items():
     print(f"  {corner}: {coords}")
 
-print("\nPipeline fully complete. These coordinates map exactly to the bounding boxes you see on screen.")
+# --- THE MATH (比例尺) ---
+print("\n==============================================")
+print("             REAL WORLD DIMENSIONS            ")
+print("==============================================")
+
+# 1. Get pixel dimensions of both objects
+ref_pixel_width = ref_bbox[2]
+ref_pixel_height = ref_bbox[3]
+
+target_pixel_width = target_bbox[2]
+target_pixel_height = target_bbox[3]
+
+# 2. Calculate Pixels-Per-Centimeter (PPC) scale factor 
+# We average the square's W and H to account for tiny 1-pixel rounding errors
+ppc = ((ref_pixel_width + ref_pixel_height) / 2.0) / REAL_SQUARE_CM
+
+# 3. Convert target pixel dimensions to Real CM
+real_target_w_cm = target_pixel_width / ppc
+real_target_h_cm = target_pixel_height / ppc
+
+# 4. Assign Length (longer side) and Width (shorter side)
+target_length_cm = max(real_target_w_cm, real_target_h_cm)
+target_width_cm = min(real_target_w_cm, real_target_h_cm)
+
+print(f"Scale Factor: 1 cm = {ppc:.2f} pixels")
+print(f"Target Length: {target_length_cm:.2f} cm")
+print(f"Target Width:  {target_width_cm:.2f} cm")
+print("==============================================\n")
