@@ -12,8 +12,9 @@ from dotenv import load_dotenv
 from .estimator import DEFAULT_MODEL, VLMSizeEstimator
 
 SUPPORTED_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp", ".bmp", ".gif"}
-
+DEFAULT_DATA_DIR = Path("data/543 photos")
 DEFAULT_OUTPUT_DIR = Path("results/vlm_baseline")
+
 
 
 
@@ -40,8 +41,8 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--data_dir",
         type=Path,
-        default=Path("data/543 images"),
-        help="Directory used when resolving image filenames. Default: data/543 images",
+        default=DEFAULT_DATA_DIR,
+        help=f"Directory used when resolving image filenames. Default: {DEFAULT_DATA_DIR}",
     )
     parser.add_argument(
         "--csv_dir",
@@ -88,7 +89,12 @@ def resolve_image_path(image_arg: str, data_dir: Path) -> Path:
 
 def list_images(data_dir: Path) -> list[Path]:
     """List supported image files in the given directory, sorted alphabetically."""
-    
+
+    if not data_dir.exists():
+        raise FileNotFoundError(f"Image directory does not exist: {data_dir}")
+    if not data_dir.is_dir():
+        raise NotADirectoryError(f"Expected image directory, got: {data_dir}")
+
     return sorted(
         path
         for path in data_dir.iterdir()
