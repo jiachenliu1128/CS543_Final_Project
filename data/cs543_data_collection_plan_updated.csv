@@ -1,4 +1,4 @@
-Photo ID,Object Group,Target Dimension,Target Name,Target Shape,Target Length (cm),Target Width (cm),Reference Name,Reference Length (cm),Reference Width (cm),Camera Condition,Tilted (Y/N),In-plane Rotation (Y/N),Reference Placement,Reference Distance (cm),Image Filename,Notes
+﻿Photo ID,Object Group,Target Dimension,Target Name,Target Shape,Target Length (cm),Target Width (cm),Reference Name,Reference Length (cm),Reference Width (cm),Camera Condition,Tilted (Y/N),In-plane Rotation (Y/N),Reference Placement,Reference Distance (cm),Image Filename,Notes
 01_DRIVERSLIC_TD_NEAR,Regular-Known,Known,Driver's License,Regular,8.5,5.5,5 cm x 5 cm square marker,5,5,Top-down,N,N,Near,10,01_DRIVERSLIC_TD_NEAR.jpg,
 01_DRIVERSLIC_TD_FAR,Regular-Known,Known,Driver's License,Regular,8.5,5.5,5 cm x 5 cm square marker,5,5,Top-down,N,N,Far,20,01_DRIVERSLIC_TD_FAR.jpg,
 01_DRIVERSLIC_ROT45_NEAR,Regular-Known,Known,Driver's License,Regular,8.5,5.5,5 cm x 5 cm square marker,5,5,Top-down + 45° in-plane rotation,N,Y,Near,10,01_DRIVERSLIC_ROT45_NEAR.jpg,
