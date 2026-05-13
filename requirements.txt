@@ -1,2 +1,22 @@
+# VLM baseline
 openai>=1.75.0
 python-dotenv>=1.0.1
+
+# Data processing
+pandas>=2.0.0
+openpyxl>=3.1.0
+
+# Numerical computing
+numpy>=1.24.0
+
+# Image processing
+opencv-python>=4.8.0
+Pillow>=10.0.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# PyTorch / SAM
+torch
+torchvision
+git+https://github.com/facebookresearch/segment-anything.git
